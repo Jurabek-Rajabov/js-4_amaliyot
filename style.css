@@ -1,0 +1,42 @@
+#element{
+    width: 100px;
+    height: 100px;
+    background: crimson;
+  
+    
+    
+}
+#active{
+    display: none;
+}
+
+    #parent{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+       
+    }
+
+#select{
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    outline: 1px solid grey;
+    
+}
+
+#btn{
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    background-color: aqua;
+    transition:  0.5s ease all;     
+}
+#btn:hover{
+    background-color: grey;
+    
+}
+
